@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text\ReverseString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -56,23 +56,6 @@
     <None Include="Text\README.md" />
     <None Include="Threading\README.md" />
     <None Include="Web\README.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Numbers\alarm.py" />
-    <Content Include="Numbers\binary_decimal.py" />
-    <Content Include="Numbers\calc.py" />
-    <Content Include="Numbers\change.py" />
-    <Content Include="Numbers\credit_card_validator.py" />
-    <Content Include="Numbers\distance.py" />
-    <Content Include="Numbers\fibonacci.py" />
-    <Content Include="Numbers\next_prime.py" />
-    <Content Include="Numbers\pi.py" />
-    <Content Include="Numbers\prime.py" />
-    <Content Include="Numbers\tile.py" />
-    <Content Include="Text\count_vowels.py" />
-    <Content Include="Text\palindrome.py" />
-    <Content Include="Text\piglatin.py" />
-    <Content Include="Text\reverse.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
