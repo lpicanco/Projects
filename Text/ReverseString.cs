@@ -9,10 +9,11 @@ namespace Hundredprojects.Text
     /// <summary>
     /// Reverse a String – Enter a string and the program will reverse it and print it out.
     /// </summary>
-    class ReverseString
+    public class ReverseString
     {
-        static void Main(String[] args)
+        public static void Main()
         {
+            Console.WriteLine("Reverse a String – Enter a string and the program will reverse it and print it out.");
             Console.Write("Enter a text: ");
             var text = Console.ReadLine();
 
